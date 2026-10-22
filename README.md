@@ -3,75 +3,74 @@
 # ✦ ACOURD ✦
 
 <p align="center">
-  <strong>Visionary Creator · Sovereign AI Conductor · Cognitive Governance Architect</strong>
+  <strong>Builder · Desktop Theming · AI-Directed Systems</strong>
 </p>
 
 <p align="center">
-  <em>"Software creation at the speed of voice, backed by the mathematical rigor of mission-critical systems."</em>
+  <em>Building software with voice and AI — backed by real tests, not hallucinated passes.</em>
 </p>
 
-[![Followers](https://img.shields.io/github/followers/Acourd?label=Followers&style=flat-square&color=21262d&labelColor=0d1117)](https://github.com/Acourd)
-[![Views](https://komarev.com/ghpvc/?username=Acourd&color=c53030&style=flat-square&label=Profile+Views)](https://github.com/Acourd)
+<p align="center">
+  <a href="https://github.com/Acourd?tab=followers"><img src="https://img.shields.io/github/followers/Acourd?label=Followers&style=flat-square&color=21262d&labelColor=0d1117" alt="Followers" /></a>
+  <a href="https://github.com/Acourd"><img src="https://img.shields.io/badge/Focus-UI%20Themes%20%26%20Governance-c53030?style=flat-square&labelColor=0d1117" alt="Focus" /></a>
+</p>
 
 </div>
 
 ---
 
-### ⌗ About Me & Vision
+### ⌗ About Me
 
-I am a product architect and sovereign systems conductor pioneering **deterministic governance for autonomous AI agents**. 
+I build software through high-speed voice dictation, guiding AI models to construct tools without letting them hallucinate or break production. I don't write thousands of lines of boilerplate by hand; I direct architectures, enforce strict invariants, and make sure tests actually run.
 
-Rather than writing traditional boilerplate, I operate at the frontier of **Agentic Engineering & Vibe Coding**—directing autonomous multi-agent triads (executors, physical oracles, and adversarial clean-room auditors) via high-speed voice dictation, canonical state maps, and formal invariants.
-
-- 🛡️ **Creator of [Axkern](https://github.com/Acourd/Axkern):** A zero-dependency, fail-closed governance kernel designed to protect creators from AI hallucinations, silent code regressions, and vacuous test passes (*falsos verdes*).
-- 🧠 **Cognitive Architecture (OISA):** Architecting multi-agent memory harnesses, Merkle-chained decision ledgers, and automated TDD containment engines.
-- 🎨 **Minimalism & Aesthetics:** Passionate about dark minimalist design, typography, and precision system theming.
+- 🛡️ **[Axkern](https://github.com/Acourd/Axkern):** A zero-dependency safety kernel that catches LLM hallucinations, silent regressions, and fake test passes (*falsos verdes*). Pure Node.js, fail-closed, and verified in memory with Exit Code 0.
+- 🎨 **Desktop Theming & CSS:** Hands-on work creating clean dark aesthetics, from custom GTK themes like [Cayzen](https://github.com/Acourd/Cayzen) to icon packs like [Graphite-Elegance](https://github.com/Acourd/Graphite-Elegance) and Prism Launcher themes.
+- ⚙️ **Workflow:** High-cadence AI steering combined with mathematical rigor—applying pure functional principles to prevent context drift and brittle code.
 
 ---
 
 <details>
-<summary><b>🇪🇸 Haz clic aquí para leer en Español</b></summary>
+<summary><b>🇪🇸 Versión en Español</b></summary>
 <br>
 
-### ⌗ Sobre Mí y Visión
+### ⌗ Sobre mí
 
-Soy un arquitecto de producto y conductor de sistemas soberanos pionero en **gobernanza determinista para agentes de inteligencia artificial**.
+Construyo software mediante dictado por voz y flujos de trabajo con inteligencia artificial, guiando modelos sin dejar que alucinen o rompan código en silencio. En lugar de escribir miles de líneas de sintaxis repetitiva a mano, dirijo la arquitectura, impongo contratos estrictos y me aseguro de que las pruebas se ejecuten de verdad en la máquina.
 
-En lugar de programar sintaxis tradicional de forma manual, opero en la frontera de la **Ingeniería Agéntica y el Vibe Coding**: dirigiendo tríadas de agentes autónomos (implementadores, oráculos físicos y auditores adversariales) mediante dictado por voz de alta velocidad, mapas canónicos de estado y contratos invariantes.
-
-- 🛡️ **Creador de [Axkern](https://github.com/Acourd/Axkern):** Un kernel de gobernanza *fail-closed* con cero dependencias externas, diseñado para blindar a los creadores frente a alucinaciones de IA, parches ciegos (*placebo patches*) y falsos verdes en pruebas.
-- 🧠 **Arquitectura Cognitiva (OISA):** Diseño de arneses de memoria metacognitiva, cadenas Merkle de auditoría y ciclos cerrados de TDD.
-- 🎨 **Estética y Minimalismo:** Apasionado por las interfaces oscuras, el diseño de software sobrio y la personalización de entornos.
+- 🛡️ **[Axkern](https://github.com/Acourd/Axkern):** Un arnés de gobernanza *fail-closed* con cero dependencias externas. Detiene alucinaciones de modelos de lenguaje, parches ciegos (*placebo patches*) y falsos verdes en tests. Todo en Node.js nativo con salida Exit Code 0 verificada en memoria.
+- 🎨 **Temas GTK, CSS y Personalización:** Diseño de interfaces oscuras y minimalistas. Creador del tema GTK [Cayzen](https://github.com/Acourd/Cayzen), el paquete de iconos [Graphite-Elegance](https://github.com/Acourd/Graphite-Elegance) para Windows y temas en CSS para lanzadores de aplicaciones.
+- ⚙️ **Filosofía:** Crear a la velocidad del pensamiento sin tolerar código frágil ni atajos cosméticos.
 
 <br>
 </details>
 
 ---
 
-### 🛡️ Core Paradigms & Domains
+### 🛠️ Focus & Tools
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Agentic_Orchestration-Autonomous_Triads-c53030?style=for-the-badge&logoColor=white" alt="Agentic Orchestration" />
-<img src="https://img.shields.io/badge/Deterministic_Governance-Fail--Closed_TCB-161b22?style=for-the-badge&logoColor=white" alt="Deterministic Governance" />
+<img src="https://img.shields.io/badge/CSS3_%26_GTK-Theming-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS & GTK" />
+<img src="https://img.shields.io/badge/Deterministic_Governance-Fail--Closed-c53030?style=for-the-badge&logoColor=white" alt="Deterministic Governance" />
 <img src="https://img.shields.io/badge/Zero--Dependency-Pure_Runtime-161b22?style=for-the-badge&logoColor=white" alt="Zero Dependency" />
-<img src="https://img.shields.io/badge/Oracles_%26_TDD-Exit_Code_0-c53030?style=for-the-badge&logoColor=white" alt="Closed Loop TDD" />
+<img src="https://img.shields.io/badge/AI_Assisted-Voice_Directed-21262d?style=for-the-badge&logoColor=white" alt="AI Assisted" />
 
 </div>
 
-<div align="center" style="margin-top: 6px;">
+<div align="center" style="margin-top: 8px;">
 
-<img src="https://img.shields.io/badge/Node.js-Pure_Stdlib-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
-<img src="https://img.shields.io/badge/Python-Scripting_%26_Tools-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Type_Theoretic_Invariants-Haskell_Style-5D4F85?style=flat-square&logo=haskell&logoColor=white" alt="Haskell Principles" />
-<img src="https://img.shields.io/badge/HTML5_%26_CSS3-Theming_%26_UI-E34F26?style=flat-square&logo=html5&logoColor=white" alt="UI" />
-<img src="https://img.shields.io/badge/Git-Merkle_Chains-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+<img src="https://img.shields.io/badge/GTK_Themes-4A90E2?style=flat-square&logo=gnome&logoColor=white" alt="GTK Themes" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
+<img src="https://img.shields.io/badge/Type_Invariants-5D4F85?style=flat-square&logo=haskell&logoColor=white" alt="Type Invariants" />
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
 
 </div>
 
 ---
 
-### 📊 GitHub Telemetry
+### 📊 Telemetry
 
 <div align="center">
 
@@ -83,5 +82,5 @@ En lugar de programar sintaxis tradicional de forma manual, opero en la frontera
 ---
 
 <div align="center">
-  <sub>Pioneering Sovereign AI Systems · High-Velocity Cognitive Direction</sub>
+  <sub>Curiosity-driven engineering · Designed with minimalism in mind</sub>
 </div>
