@@ -1,0 +1,49 @@
+name: Update README cards & telemetry
+
+on:
+  schedule:
+    - cron: '17 */2 * * *'   # Runs every 2 hours
+  workflow_dispatch:          # Allows manual trigger from Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  telemetry:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.CARDS_TOKEN }}
+
+      - name: Generate Cool README Cards
+        uses: pedrocatalao/github-cool-readme@v1
+        with:
+          token: ${{ secrets.CARDS_TOKEN }}
+          output: ${{ runner.temp }}/cards
+
+      - name: Generate Contribution Snake Animation
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Acourd
+          outputs: |
+            ${{ runner.temp }}/cards/github-snake.svg
+            ${{ runner.temp }}/cards/github-snake-dark.svg?palette=github-dark&color_snake=#64d2ff&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+
+      # Publish all generated SVGs to orphan 'cards' branch
+      - name: Publish to cards branch
+        run: |
+          git fetch --quiet --depth 1 origin cards:refs/remotes/origin/cards 2>/dev/null || true
+          git switch --quiet --orphan cards
+          cp "$RUNNER_TEMP"/cards/*.svg .
+          git add -- *.svg
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit --quiet -m 'Update README cards and snake telemetry'
+          if git rev-parse --quiet --verify origin/cards >/dev/null && git diff --quiet origin/cards HEAD; then
+            echo "No changes"
+            exit 0
+          fi
+          git push --force origin cards

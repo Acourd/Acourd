@@ -1,0 +1,24 @@
+# cool-readme.yml
+# Configuration for pedrocatalao/github-cool-readme animated telemetry cards
+# https://github.com/pedrocatalao/github-cool-readme
+
+user: Acourd
+cards:
+  - summary
+  - languages
+  - contributions
+  - weekly
+
+# Visual style: 'classic' (transparent background, native GitHub typography, dark/light adaptive)
+style: classic
+
+summary:
+  ring: github        # Displays GitHub logo inside the activity ring
+
+include:
+  private: true       # Count private commit activity
+  orgs: true          # Count organization activity
+
+theme:
+  background: transparent
+  border: false
